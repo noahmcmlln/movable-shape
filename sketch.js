@@ -39,6 +39,9 @@ setup = function() {
 
 draw = function() {
   background(200); // refresh the background
+	fill(150); // pavement
+  rect(0, 375, 600, 300);
   myCar.display(); // display myShape
   myCar.update(); // and then update it
+
 };
